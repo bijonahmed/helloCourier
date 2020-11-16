@@ -1,0 +1,148 @@
+/* Start contact page css */
+
+.tt-contact{
+    width: 100%;
+    float: left;
+    /*border-bottom: 1px solid #f2f2f2;*/
+    padding-bottom: 30px;
+}
+.tt-contact:last-child{
+    border-bottom: none;
+}
+
+.tt-contact-icon-outer {
+    float: left;
+    padding: 6px;
+    border: 1px solid #404040;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: #3baeff;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.tt-contact-icon {
+    width: 63px;
+    height: 63px;
+    float: left;
+    background-color: #ff861a;
+    border: 6px solid #404040;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFF;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tt-contact-info {
+    padding-left: 0;
+    float: left;
+    width: 74%;
+}
+.simple-text {
+
+}
+.simple-text p{
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    word-wrap: break-word;
+    padding-top: 14px;
+}
+.simple-text.size-3 {
+    font-size: 15px;
+    line-height: 26px;
+}
+.contact-form{
+    padding: 45px 40px 90px 40px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0px 7px #ccdee6;
+}
+.contact-form input[type="text"], input[type="tel"], input[type="email"]{
+    width: 100%;
+}
+.contact-form input[type="text"]{
+    margin-bottom: 20px;
+}
+.contact-form input[type="tel"]{
+    margin-bottom: 20px;
+}
+.contact-form input[type="email"]{
+    margin-bottom: 20px;
+}
+.contact-form input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    float: left;
+    background-color: #48b584;
+    margin-right: 10px;
+    margin-top: 20px;
+    border:none;
+    color: #FFF;
+    font-size: 16px;
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus{
+    border-color:#b9b9b9;
+    background-color:#ffffff;   
+}
+
+.contact-form input.error,
+.contact-form select.error,
+.contact-form textarea.error{
+    border-color:#ff0000;   
+}
+
+.contact-form label.error{
+    display:block;
+    line-height:24px;
+    padding:5px 0px 0px;
+    margin:0px;
+    text-transform:uppercase;
+    font-size:11px;
+    color:#ff0000;
+    font-weight:500;    
+}
+.contact-submit-button {
+    background: #000;
+    border-radius: 0px;
+    font-size: 14px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 700;
+    border: none;
+}
+.contact-submit-button:hover {
+    background: #ff0000;
+    transition:all .3s ease-out;
+}
+
+/*** 
+
+====================================================================
+    Map Section Style
+====================================================================
+
+***/
+
+.map-column{
+    width: 100%;
+    background-color: #FFF;
+    padding-bottom: 50px;
+}
+.map-outer{
+    position:relative;
+}
+
+.map-canvas{
+    position:relative;
+}

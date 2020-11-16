@@ -1,0 +1,164 @@
+
+
+/* Start Service page-1 css*/
+.service-page{
+    width: 100%;
+    height: 100%;
+}
+.pull-left .single-sidebar-widget {
+    padding-right: 50px;
+}
+.pull-right .single-sidebar-widget {
+    padding-left: 50px;
+}
+.single-sidebar-widget {
+    margin-bottom: 50px;
+    background-color: #FFF;
+}
+.single-sidebar-widget:last-child {
+    margin-bottom: 0;
+}
+.single-sidebar-widget .sec-title {
+    margin-bottom: 30px;
+}
+.single-sidebar-widget .sec-title h2 span {
+    font-size: 20px;
+}
+.single-sidebar-widget .sec-title h2:after {
+    content: '';
+    width: 55px;
+    height: 3px;
+    background: #fc5858;
+    display: block;
+    margin-top: 13px;
+}
+.single-sidebar-widget .special-links{
+    margin-bottom: 0;
+    width: 100%;
+}
+.single-sidebar-widget .special-links ul{
+    margin: 0;
+    padding: 0;
+}
+.single-sidebar-widget .special-links li{
+    list-style: none;
+}
+.single-sidebar-widget .special-links li:last-child {
+    margin-bottom: 0;
+    width: 100%;
+}
+.single-sidebar-widget .special-links li a {
+    border: 1px solid #EFEFEF;
+    color: #242424;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1px;
+    line-height: 50px;
+    position: relative;
+    padding: 0 20px;
+    -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+}
+.single-sidebar-widget .special-links li:hover a,
+.single-sidebar-widget .special-links li.active a {
+    background: transparent;
+    color: #FFF;
+    background-color:  #1d72c9;
+
+}
+.single-sidebar-widget .special-links li:hover a:after,
+.single-sidebar-widget .special-links li.active a:after {
+    color: inherit;
+}
+.single-sidebar-widget .special-links li a:after {
+    content: "\f054";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    right: 20px;
+    line-height: 50px;
+    color: #6A6969;
+    font-weight: normal;
+}
+.service-tab-content{
+    float: right;
+    background-color: #FFF;
+ 
+}
+.service-tab-content .image-box{
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    height: 385px;
+    overflow: hidden;
+}
+
+.service-tab-content .text-box{
+    width: 100%;
+    float: left;
+}
+.service-tab-content .text-box h2.title{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: left;
+    padding: 30px 0 20px 0;
+    letter-spacing: 1px;
+    font-family: "Raleway",sans-serif;
+}
+.service-tab-content .text-box h2.title:before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #1d72c9;
+    display: block;
+    position: relative;
+    top: 32px;
+    left: 0;
+    margin: 0;
+}
+.service-tab-content .text-box p{
+    font-size: 14px;
+    color: #969696;
+    margin: 0;
+    text-align: left;
+    padding: 0 0 20px 0;
+}
+.image-caption-box{
+    height: 243px;
+    float: right;
+    overflow: hidden;
+}
+.image-caption-box .service-text-box{
+    float: left;
+    width: 62%;
+}
+.service-text-box h2.heading{
+    color: #242424;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.service-text-box p {
+    font-size: 15px;
+}
+/* End Service page-1 css*/
+
+/* Strat service page-2 css */
+.service-image-block {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service-image-inner {
+    padding: 10px;
+    border: 1px solid #e6e3da;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.service-img {
+    margin-bottom: 30px;
+}
+
+/* End service page-2 css */

@@ -1,0 +1,97 @@
+
+
+/* Team page Start*/
+
+.our-team{
+    border-left: 8px solid #1e72ba;
+    border-right: 8px solid #1e72ba;
+    border-bottom: 8px solid #1e72ba;
+    border-top: 8px solid #1e72ba;
+}
+.our-team .team-image{
+    position: relative;
+    text-align: center;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+}
+.our-team .description{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    padding: 40px 34px;
+    text-align: left;
+    opacity: 0;
+    background-color: rgba(36, 107, 231, 0.6);
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .description{
+    opacity: 1;
+}
+.our-team .social{
+    padding: 10px 0 0 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: -27px;
+    background: #0067b1;
+    text-align: center;
+    transform: translate(25px, 0px) rotateY(90deg);
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social{
+    transform: translate(0px, 0px) rotateY(0deg);
+}
+.our-team .social li{
+    display: block;
+    margin-bottom: 10px;
+}
+.our-team .social li a{
+    display: block;
+    width: 40px;
+    height: 35px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+}
+.our-team .social li a:hover{
+    background: #ff861a;
+}
+.our-team .team-info{
+    padding: 10px 20px;
+}
+.our-team .title{
+    font-size: 18px;
+    color: #3b336a;
+    letter-spacing: 4px;
+    margin: 0 0 10px 0;
+    transition: all 0.5s ease 0s;
+}
+.our-team .post{
+    display: block;
+    font-size: 14px;
+    color: #3b336a;
+    text-transform: capitalize;
+}
+.our-team .title:hover,
+.our-team .post:hover{
+    color: #bc3fbf;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 767px){
+    .our-team .social{ left: -20px; }
+}
+@media only screen and (max-width: 480px){
+    .our-team .social{ left: -20px; }
+}
+/* End Team page */
